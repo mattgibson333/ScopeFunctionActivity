@@ -16,7 +16,9 @@ class MainActivity : AppCompatActivity() {
         // You can test your helper functions by  calling them from onCreate() and
         // printing their output to the Log, which is visible in the LogCat:
         // eg. Log.d("function output", getTestDataArray().toString())
-
+        Log.d("function output", getTestDataArray().toString())
+        Log.d("function output", averageLessThanMedian(listOf(1.0, 2.0, 3.0, 4.0, 5.0)).toString())
+        Log.d("function output", getView(0, null, getTestDataArray(), this).toString())
     }
 
 
